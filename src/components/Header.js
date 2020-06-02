@@ -4,18 +4,22 @@ import React from 'react'
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span className="icon fa-diamond"></span>
+      <span className="fa fa-bolt fa-5x"></span>
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Dimension</h1>
+        <h1>Matthew Macklin</h1>
         <p>
-          A fully responsive site template designed by{' '}
-          <a href="https://html5up.net">HTML5 UP</a> and released
-          <br />
-          for free under the{' '}
-          <a href="https://html5up.net/license">Creative Commons</a> license.
+          I use Python and JavaScript to develop applications for web and
+          mobile. Please check out some of my work and don't hesitate to get in
+          contact.
         </p>
+        <h3>matthewthomasmacklin@gmail.com</h3>
+        <h3>
+          <a href="https://www.github.com/fractalswift">
+            github.com/fractalswift
+          </a>
+        </h3>
       </div>
     </div>
     <nav>
@@ -23,10 +27,10 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('intro')
+              props.onOpenArticle('skills')
             }}
           >
-            Intro
+            Skills
           </button>
         </li>
         <li>

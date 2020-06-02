@@ -1,8 +1,12 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+import scanner from '../images/scanner.png'
+import react_solidity from '../images/react_solidity.png'
+import pairs_bot from '../images/pairs_bot.png'
+import cv from '../images/CVMatthewMacklin.pdf'
+import devonwrestling from '../images/devonwrestling.png'
+import cryptozap from '../images/cryptozap.png'
+import j4f from '../images/j4fwebsite.jpg'
 
 class Main extends React.Component {
   render() {
@@ -22,36 +26,40 @@ class Main extends React.Component {
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
         <article
-          id="intro"
-          className={`${this.props.article === 'intro' ? 'active' : ''} ${
+          id="skills"
+          className={`${this.props.article === 'skills' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
-          <span className="image main">
-            <img src={pic01} alt="" />
-          </span>
+          <h2 className="major">Skills</h2>
+
+          <h3>Python</h3>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            I am experienced with Pandas, Numpy, Pytest, OOP, sklearn, and have
+            worked with Django and Flask.
           </p>
+
+          <h3>JavaScript</h3>
+
+          <p>ReactJS, React Native, Express, Node.js, JSON.</p>
+
+          <h3>Others</h3>
+
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+            Git, HTML/CSS, Postgres, MongoDB, REST API, JSON, Docker, XGboost,
+            Smart Contracts (Solidity).
           </p>
+
+          <h3>Non-technical</h3>
+
+          <p>
+            I have over 10 years working in creative industries including dance
+            and am very happy working on my own or as part of a team. I believe
+            building good quality relationships with team members and
+            stakeholders makes any project more efficient and fun.{' '}
+          </p>
+
           {close}
         </article>
 
@@ -64,23 +72,90 @@ class Main extends React.Component {
         >
           <h2 className="major">Work</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={pairs_bot} alt="" />
+          </span>
+
+          <h3>Trading Robots</h3>
+          <p>
+            <a href="https://github.com/fractalswift/bitmex-pairs_bot">Here</a>{' '}
+            is an example of an automated trading robot for the Bitmex exchange.
+            This robot uses REST API to place orders when conditions are met.
+          </p>
+
+          <h3>React / React Native</h3>
+          <span className="image main">
+            <img src={devonwrestling} alt="" />
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            <a href="https://fractalswift.github.io/devon-wrestling-react/">
+              This timer{' '}
+            </a>
+            is specially designed for the Devon Wrestling rule set. The rule set
+            is currently in beta - the app will be updated as the rules are
+            tested. You can see the React Native version{' '}
+            <a href="https://github.com/fractalswift/devon-wrestling-react-native">
+              here
+            </a>{' '}
+            or in the play store{' '}
+            <a href="https://play.google.com/store/apps/details?id=com.devonwrestling.devonwrestling">
+              {' '}
+              here
+            </a>{' '}
+            .
+          </p>
+
+          <h3>Django and REST API</h3>
+          <span className="image main">
+            <img src={cryptozap} alt="" />
+          </span>
+          <p>
+            <a href="http://178.128.167.44/">CryptoZap</a> is a Django web app
+            that uses REST API to get data about liquidity from crypto
+            exchanges.
+          </p>
+
+          <h3>Smart Contracts and Web3</h3>
+          <span className="image main">
+            <img src={react_solidity} alt="" />
+          </span>
+          <p>
+            <a href="https://github.com/fractalswift/bannerApp">
+              This one page app
+            </a>{' '}
+            interacts with the Ethereum testnet (Ropstein). You can place a
+            message on the blockchain if you make a transaction using Ropstein
+            Ether. You can interact with it here:
+            <a hfef="https://ethbannerdemo.herokuapp.com/"> Eth Banner Demo</a>
+          </p>
+          <h3>Data Science</h3>
+          <span className="image main">
+            <img src={scanner} alt="" />
+          </span>
+          <p>
+            <a href="https://github.com/fractalswift/backtesting-stategies-using-pandas">
+              Here
+            </a>{' '}
+            are some examples of data analysis using Pandas. More detailed
+            examples available upon request.
+          </p>
+
+          <h3>Gatsby</h3>
+
+          <span className="image main">
+            <img src={j4f} alt="" />
+          </span>
+
+          <p>
+            I use Gatbsy for static websites and PWAs. The following website has
+            Gatsby frontend with Wordpress Rest API as a headless CMS, deployed
+            on Google Cloud:
           </p>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            <a href="https://www.just4funkproductions.com">
+              Just 4 Funk Website
+            </a>
           </p>
+
           {close}
         </article>
 
@@ -92,17 +167,27 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">About</h2>
-          <span className="image main">
-            <img src={pic03} alt="" />
-          </span>
+
+          <p>Hi there! </p>
+
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            Thanks for dropping by. I'm most experienced in working on projects
+            with a focus on Python and JavaScript, but I love learning new
+            skills and am open to learning whatever it takes to get the job
+            done.
+          </p>
+
+          <p>
+            I love improving my skillset with new technology and working as part
+            of a team, so if you're looking for someone enthusiastic and
+            passionate to join your project, please don't hesitate to get in
+            contact.
+          </p>
+
+          <p>matthewthomasmacklin@gmail.com</p>
+
+          <p>
+            <a href={cv}>Click here for my CV</a>
           </p>
           {close}
         </article>
