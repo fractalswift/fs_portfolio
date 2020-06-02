@@ -6,6 +6,13 @@ module.exports = {
       'Website for Matthew Macklin, design based from Dimension by HTML5 UP',
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // replace "UA-XXXXXXXXX-X" with your own Tracking ID
+        trackingId: 'UA-168213102-1',
+      },
+    },
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
