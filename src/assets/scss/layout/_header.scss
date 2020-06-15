@@ -122,7 +122,8 @@
       li {
         padding-left: 0;
         border-left: solid _size(border-width) _palette(border);
-
+        display: flex;
+        justify-content: center;
         &:first-child {
           border-left: 0;
         }

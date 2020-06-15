@@ -3,7 +3,7 @@ module.exports = {
     title: 'Matthew Macklin - Full Stack Developer',
     author: 'Matthew Macklin',
     description:
-      'Website for Matthew Macklin, design based from Dimension by HTML5 UP',
+      'Website for Matthew Macklin, design based Dimension by HTML5 UP',
   },
   plugins: [
     {

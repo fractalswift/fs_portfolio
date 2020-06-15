@@ -12,8 +12,14 @@ class Main extends React.Component {
   render() {
     let close = (
       <div
+        role="button"
+        aria-label="close the article"
+        tabIndex={0}
         className="close"
         onClick={() => {
+          this.props.onCloseArticle()
+        }}
+        onKeyDown={() => {
           this.props.onCloseArticle()
         }}
       ></div>
@@ -125,7 +131,7 @@ class Main extends React.Component {
             interacts with the Ethereum testnet (Ropstein). You can place a
             message on the blockchain if you make a transaction using Ropstein
             Ether. You can interact with it here:
-            <a hfef="https://ethbannerdemo.herokuapp.com/"> Eth Banner Demo</a>
+            <a href="https://ethbannerdemo.herokuapp.com/"> Eth Banner Demo</a>
           </p>
           <h3>Data Science</h3>
           <span className="image main">
@@ -203,53 +209,50 @@ class Main extends React.Component {
           <form method="post" action="#">
             <div className="field half first">
               <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
+              <input
+                type="text"
+                name="name"
+                id="name"
+                aria-label="enter name"
+              />
             </div>
             <div className="field half">
               <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
+              <input
+                type="text"
+                name="email"
+                id="email"
+                aria-label="enter email"
+              />
             </div>
             <div className="field">
               <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
+              <textarea
+                name="message"
+                id="message"
+                rows="4"
+                aria-label="enter your message"
+              ></textarea>
             </div>
             <ul className="actions">
               <li>
-                <input type="submit" value="Send Message" className="special" />
+                <input
+                  type="submit"
+                  value="Send Message"
+                  className="special"
+                  aria-label="send message button"
+                />
               </li>
               <li>
-                <input type="reset" value="Reset" />
+                <input
+                  type="reset"
+                  value="Reset"
+                  aria-label="reset form button"
+                />
               </li>
             </ul>
           </form>
-          <ul className="icons">
-            <li>
-              <a
-                href="https://twitter.com/HuntaroSan"
-                className="icon fa-twitter"
-              >
-                <span className="label">Twitter</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
-                <span className="label">Facebook</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
-                <span className="label">Instagram</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
-                className="icon fa-github"
-              >
-                <span className="label">GitHub</span>
-              </a>
-            </li>
-          </ul>
+
           {close}
         </article>
       </div>

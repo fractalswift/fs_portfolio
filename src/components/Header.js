@@ -4,15 +4,14 @@ import React from 'react'
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span className="fa fa-bolt fa-5x"></span>
+      <span className="icon fa-bolt"></span>
     </div>
     <div className="content">
       <div className="inner">
         <h1>Matthew Macklin</h1>
         <p>
-          I use Python and JavaScript to develop applications for web and
-          mobile. Please check out some of my work and don't hesitate to get in
-          contact.
+          I use Python and JavaScript to develop full-stack applications for web
+          and mobile.
         </p>
         <h3>matthewthomasmacklin@gmail.com</h3>
         <h3>
