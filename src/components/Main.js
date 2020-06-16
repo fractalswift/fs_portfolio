@@ -206,9 +206,16 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <a href="mailto:matthewthomasmacklin@gmail.com">
-            matthewthomsmacklin@gmail.com
-          </a>
+          <p>Email me at:</p>
+          <p style={{ marginBottom: '30px;' }}>
+            <a
+              style={{ marginBottom: '30px;' }}
+              href="mailto:matthewthomasmacklin@gmail.com"
+            >
+              matthewthomsmacklin@gmail.com
+            </a>
+          </p>
+          <p style={{ marginBottom: '30px;' }}> Thanks!</p>
 
           {close}
         </article>
