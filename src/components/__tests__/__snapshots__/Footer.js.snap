@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer renders correctly 1`] = `
+<footer
+  id="footer"
+  style={Object {}}
+>
+  <p
+    className="copyright"
+  >
+    © Gatsby Starter - Based on Dimension By
+     
+    <a
+      href="https://html5up.net"
+    >
+      HTML5 UP
+    </a>
+    . Built with:
+     
+    <a
+      href="https://www.gatsbyjs.org/"
+    >
+      Gatsby.js
+    </a>
+  </p>
+</footer>
+`;
+
+exports[`Main renders correctly 1`] = `
+<footer
+  id="footer"
+  style={Object {}}
+>
+  <p
+    className="copyright"
+  >
+    © Gatsby Starter - Based on Dimension By
+     
+    <a
+      href="https://html5up.net"
+    >
+      HTML5 UP
+    </a>
+    . Built with:
+     
+    <a
+      href="https://www.gatsbyjs.org/"
+    >
+      Gatsby.js
+    </a>
+  </p>
+</footer>
+`;

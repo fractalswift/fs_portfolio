@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+import CV from './CV'
 import scanner from '../images/scanner.png'
 import react_solidity from '../images/react_solidity.png'
 import pairs_bot from '../images/pairs_bot.png'
-import cv from '../images/CVMatthewMacklin.pdf'
 import devonwrestling from '../images/devonwrestling.png'
 import cryptozap from '../images/cryptozap.png'
 import j4f from '../images/j4fwebsite.jpg'
@@ -193,7 +193,7 @@ class Main extends React.Component {
           <p>matthewthomasmacklin@gmail.com</p>
 
           <p>
-            <a href={cv}>Click here for my CV</a>
+            <CV />
           </p>
           {close}
         </article>

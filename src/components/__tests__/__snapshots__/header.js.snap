@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<header
+  id="header"
+  style={Object {}}
+>
+  <div
+    className="logo"
+  >
+    <span
+      className="icon fa-bolt"
+    />
+  </div>
+  <div
+    className="content"
+  >
+    <div
+      className="inner"
+    >
+      <h1>
+        Matthew Macklin
+      </h1>
+      <p>
+        I use Python and JavaScript to develop full-stack applications for web and mobile.
+      </p>
+      <h3>
+        matthewthomasmacklin@gmail.com
+      </h3>
+      <h3>
+        <a
+          href="https://www.github.com/fractalswift"
+        >
+          github.com/fractalswift
+        </a>
+      </h3>
+    </div>
+  </div>
+  <nav>
+    <ul>
+      <li>
+        <button
+          onClick={[Function]}
+        >
+          Skills
+        </button>
+      </li>
+      <li>
+        <button
+          onClick={[Function]}
+        >
+          Work
+        </button>
+      </li>
+      <li>
+        <button
+          onClick={[Function]}
+        >
+          About
+        </button>
+      </li>
+      <li>
+        <button
+          onClick={[Function]}
+        >
+          Contact
+        </button>
+      </li>
+    </ul>
+  </nav>
+</header>
+`;

@@ -1,0 +1,360 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main renders correctly 1`] = `
+<div
+  id="main"
+  style={
+    Object {
+      "display": "none",
+    }
+  }
+>
+  <article
+    className=" "
+    id="skills"
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <h2
+      className="major"
+    >
+      Skills
+    </h2>
+    <h3>
+      Python
+    </h3>
+    <p>
+      I am experienced with Pandas, Numpy, Pytest, OOP, sklearn, and have worked with Django and Flask.
+    </p>
+    <h3>
+      JavaScript
+    </h3>
+    <p>
+      ReactJS, React Native, Express, Node.js, JSON.
+    </p>
+    <h3>
+      Others
+    </h3>
+    <p>
+      Git, HTML/CSS, Postgres, MongoDB, REST API, JSON, Docker, XGboost, Smart Contracts (Solidity).
+    </p>
+    <h3>
+      Non-technical
+    </h3>
+    <p>
+      I have over 10 years working in creative industries including dance and am very happy working on my own or as part of a team. I believe building good quality relationships with team members and stakeholders makes any project more efficient and fun.
+       
+    </p>
+    <div
+      aria-label="close the article"
+      className="close"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+      tabIndex={0}
+    />
+  </article>
+  <article
+    className=" "
+    id="work"
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <h2
+      className="major"
+    >
+      Work
+    </h2>
+    <span
+      className="image main"
+    >
+      <img
+        alt=""
+        src="test-file-stub"
+      />
+    </span>
+    <h3>
+      Trading Robots
+    </h3>
+    <p>
+      <a
+        href="https://github.com/fractalswift/bitmex-pairs_bot"
+      >
+        Here
+      </a>
+       
+      is an example of an automated trading robot for the Bitmex exchange. This robot uses REST API to place orders when conditions are met.
+    </p>
+    <h3>
+      React / React Native
+    </h3>
+    <span
+      className="image main"
+    >
+      <img
+        alt=""
+        src="test-file-stub"
+      />
+    </span>
+    <p>
+      <a
+        href="https://fractalswift.github.io/devon-wrestling-react/"
+      >
+        This timer
+         
+      </a>
+      is specially designed for the Devon Wrestling rule set. The rule set is currently in beta - the app will be updated as the rules are tested. You can see the React Native version
+       
+      <a
+        href="https://github.com/fractalswift/devon-wrestling-react-native"
+      >
+        here
+      </a>
+       
+      or in the play store
+       
+      <a
+        href="https://play.google.com/store/apps/details?id=com.devonwrestling.devonwrestling"
+      >
+         
+        here
+      </a>
+       
+      .
+    </p>
+    <h3>
+      Django and REST API
+    </h3>
+    <span
+      className="image main"
+    >
+      <img
+        alt=""
+        src="test-file-stub"
+      />
+    </span>
+    <p>
+      <a
+        href="http://178.128.167.44/"
+      >
+        CryptoZap
+      </a>
+       is a Django web app that uses REST API to get data about liquidity from crypto exchanges.
+    </p>
+    <h3>
+      Smart Contracts and Web3
+    </h3>
+    <span
+      className="image main"
+    >
+      <img
+        alt=""
+        src="test-file-stub"
+      />
+    </span>
+    <p>
+      <a
+        href="https://github.com/fractalswift/bannerApp"
+      >
+        This one page app
+      </a>
+       
+      interacts with the Ethereum testnet (Ropstein). You can place a message on the blockchain if you make a transaction using Ropstein Ether. You can interact with it here:
+      <a
+        href="https://ethbannerdemo.herokuapp.com/"
+      >
+         Eth Banner Demo
+      </a>
+    </p>
+    <h3>
+      Data Science
+    </h3>
+    <span
+      className="image main"
+    >
+      <img
+        alt=""
+        src="test-file-stub"
+      />
+    </span>
+    <p>
+      <a
+        href="https://github.com/fractalswift/backtesting-stategies-using-pandas"
+      >
+        Here
+      </a>
+       
+      are some examples of data analysis using Pandas. More detailed examples available upon request.
+    </p>
+    <h3>
+      Gatsby
+    </h3>
+    <span
+      className="image main"
+    >
+      <img
+        alt=""
+        src="test-file-stub"
+      />
+    </span>
+    <p>
+      I use Gatbsy for static websites and PWAs. The following website has Gatsby frontend with Wordpress Rest API as a headless CMS, deployed on Google Cloud:
+    </p>
+    <p>
+      <a
+        href="https://www.just4funkproductions.com"
+      >
+        Just 4 Funk Website
+      </a>
+    </p>
+    <div
+      aria-label="close the article"
+      className="close"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+      tabIndex={0}
+    />
+  </article>
+  <article
+    className=" "
+    id="about"
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <h2
+      className="major"
+    >
+      About
+    </h2>
+    <p>
+      Hi there! 
+    </p>
+    <p>
+      Thanks for dropping by. I'm most experienced in working on projects with a focus on Python and JavaScript, but I love learning new skills and am open to learning whatever it takes to get the job done.
+    </p>
+    <p>
+      I love improving my skillset with new technology and working as part of a team, so if you're looking for someone enthusiastic and passionate to join your project, please don't hesitate to get in contact.
+    </p>
+    <p>
+      matthewthomasmacklin@gmail.com
+    </p>
+    <p>
+      <a
+        href="test-file-stub"
+      >
+        Click here for my CV
+      </a>
+    </p>
+    <div
+      aria-label="close the article"
+      className="close"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+      tabIndex={0}
+    />
+  </article>
+  <article
+    className=" "
+    id="contact"
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <h2
+      className="major"
+    >
+      Contact
+    </h2>
+    <form
+      action="#"
+      method="post"
+    >
+      <div
+        className="field half first"
+      >
+        <label
+          htmlFor="name"
+        >
+          Name
+        </label>
+        <input
+          aria-label="enter name"
+          id="name"
+          name="name"
+          type="text"
+        />
+      </div>
+      <div
+        className="field half"
+      >
+        <label
+          htmlFor="email"
+        >
+          Email
+        </label>
+        <input
+          aria-label="enter email"
+          id="email"
+          name="email"
+          type="text"
+        />
+      </div>
+      <div
+        className="field"
+      >
+        <label
+          htmlFor="message"
+        >
+          Message
+        </label>
+        <textarea
+          aria-label="enter your message"
+          id="message"
+          name="message"
+          rows="4"
+        />
+      </div>
+      <ul
+        className="actions"
+      >
+        <li>
+          <input
+            aria-label="send message button"
+            className="special"
+            type="submit"
+            value="Send Message"
+          />
+        </li>
+        <li>
+          <input
+            aria-label="reset form button"
+            type="reset"
+            value="Reset"
+          />
+        </li>
+      </ul>
+    </form>
+    <div
+      aria-label="close the article"
+      className="close"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+      tabIndex={0}
+    />
+  </article>
+</div>
+`;
