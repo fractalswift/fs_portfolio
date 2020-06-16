@@ -206,52 +206,9 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
-            <div className="field half first">
-              <label htmlFor="name">Name</label>
-              <input
-                type="text"
-                name="name"
-                id="name"
-                aria-label="enter name"
-              />
-            </div>
-            <div className="field half">
-              <label htmlFor="email">Email</label>
-              <input
-                type="text"
-                name="email"
-                id="email"
-                aria-label="enter email"
-              />
-            </div>
-            <div className="field">
-              <label htmlFor="message">Message</label>
-              <textarea
-                name="message"
-                id="message"
-                rows="4"
-                aria-label="enter your message"
-              ></textarea>
-            </div>
-            <ul className="actions">
-              <li>
-                <input
-                  type="submit"
-                  value="Send Message"
-                  className="special"
-                  aria-label="send message button"
-                />
-              </li>
-              <li>
-                <input
-                  type="reset"
-                  value="Reset"
-                  aria-label="reset form button"
-                />
-              </li>
-            </ul>
-          </form>
+          <a href="mailto:matthewthomasmacklin@gmail.com">
+            matthewthomsmacklin@gmail.com
+          </a>
 
           {close}
         </article>
