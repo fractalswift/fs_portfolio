@@ -7,6 +7,7 @@ import pairs_bot from '../images/pairs_bot.png'
 import devonwrestling from '../images/devonwrestling.png'
 import cryptozap from '../images/cryptozap.png'
 import j4f from '../images/j4fwebsite.jpg'
+import frontend from '../images/frontend.png'
 
 class Main extends React.Component {
   render() {
@@ -40,21 +41,30 @@ class Main extends React.Component {
         >
           <h2 className="major">Skills</h2>
 
-          <h3>Python</h3>
-          <p>
-            I am experienced with Pandas, Numpy, Pytest, OOP, sklearn, and have
-            worked with Django and Flask.
+          <h3>JavaScript/Node</h3>
+
+          <p>ReactJS, React Native, Node.js, Typescript, Jest</p>
+
+          <h3>AWS Serverless</h3>
+
+          <p>I have created and deployed commmercial applications using Serverless framework. 
+            AWS services I have used in this framework include DynamoDB and Lambda.
           </p>
 
-          <h3>JavaScript</h3>
 
-          <p>ReactJS, React Native, Express, Node.js, JSON.</p>
+          <h3>Python</h3>
+          <p>
+            I am experienced with Pandas, Numpy, Matplotlib and Pytest.
+            Most of my work in Python has been data science orientated though I do have
+            some experience with Django and Flask.
+          </p>
 
-          <h3>Others</h3>
+          
+          <h3>Blockchain / Defi</h3>
 
           <p>
-            Git, HTML/CSS, Postgres, MongoDB, REST API, JSON, Docker, XGboost,
-            Smart Contracts (Solidity).
+            I have an interest in the cryptocurrency space and have built a number of trading tools.
+            I have some experience building smart contracts that I am interested in expanding.
           </p>
 
           <h3>Non-technical</h3>
@@ -77,9 +87,26 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Work</h2>
+
+          
+          
+          <h3>React / Node / Serverless</h3>
           <span className="image main">
-            <img src={pairs_bot} alt="" />
+            <img src={frontend} alt="" />
           </span>
+          <p>
+           I have experience building full stack React apps. The one above is deployed on AWS using:
+           <ul>
+             <li>Serverless</li>
+             <li>DynamoDb</li>
+             <li>Cognito</li>
+             <li>Tests with Jest / React Testing Library</li>
+
+           </ul>
+            
+          </p>
+
+     
 
           <h3>Trading Robots</h3>
           <p>
@@ -88,34 +115,19 @@ class Main extends React.Component {
             This robot uses REST API to place orders when conditions are met.
           </p>
 
-          <h3>React / React Native</h3>
           <span className="image main">
-            <img src={devonwrestling} alt="" />
+            <img src={pairs_bot} alt="" />
           </span>
-          <p>
-            <a href="https://fractalswift.github.io/devon-wrestling-react/">
-              This timer{' '}
-            </a>
-            is specially designed for the Devon Wrestling rule set. The rule set
-            is currently in beta - the app will be updated as the rules are
-            tested. You can see the React Native version{' '}
-            <a href="https://github.com/fractalswift/devon-wrestling-react-native">
-              here
-            </a>{' '}
-            or in the play store{' '}
-            <a href="https://play.google.com/store/apps/details?id=com.devonwrestling.devonwrestling">
-              {' '}
-              here
-            </a>{' '}
-            .
-          </p>
+2
+
+       
 
           <h3>Django and REST API</h3>
           <span className="image main">
             <img src={cryptozap} alt="" />
           </span>
           <p>
-            <a href="http://178.128.167.44/">CryptoZap</a> is a Django web app
+          CryptoZap is a Django web app
             that uses REST API to get data about liquidity from crypto
             exchanges.
           </p>
@@ -125,13 +137,12 @@ class Main extends React.Component {
             <img src={react_solidity} alt="" />
           </span>
           <p>
-            <a href="https://github.com/fractalswift/bannerApp">
+            <a href="https://github.com/fractalswift/eth-banner-dapp">
               This one page app
             </a>{' '}
-            interacts with the Ethereum testnet (Ropstein). You can place a
+            interacts with the Ethereum testnet (Rinkeby). You can place a
             message on the blockchain if you make a transaction using Ropstein
-            Ether. You can interact with it here:
-            <a href="https://ethbannerdemo.herokuapp.com/"> Eth Banner Demo</a>
+            Ether. 
           </p>
           <h3>Data Science</h3>
           <span className="image main">
@@ -154,7 +165,7 @@ class Main extends React.Component {
           <p>
             I use Gatbsy for static websites and PWAs. The following website has
             Gatsby frontend with Wordpress Rest API as a headless CMS, deployed
-            on Google Cloud:
+            on GCP:
           </p>
           <p>
             <a href="https://www.just4funkproductions.com">
@@ -178,9 +189,8 @@ class Main extends React.Component {
 
           <p>
             Thanks for dropping by. I'm most experienced in working on projects
-            with a focus on Python and JavaScript, but I love learning new
-            skills and am open to learning whatever it takes to get the job
-            done.
+            with a focus on JavaScript, Node and Serverless, but I love learning new
+            skills.
           </p>
 
           <p>
